@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Khảo sát sở thích</title>
+        <style>
+            body{
+                background-color: cyan;
+            }
+            .mainbody{
+                width: 500px;
+                margin: 0 auto;
+                font-family: tahoma;
+                background-color: white;
+                height:300px;
+         
+              
+            }
+            h2 {
+                color:white;
+                background-color: indianred;
+                padding-right: 0px;
+                padding-top:4px;
+                padding-bottom:4px;
+                width:500px;
+                text-align:center;
+                font-family: tahoma;
+                font-weight: lighter;
+                letter-spacing: 0.5pt;
+                margin:0%;
+                margin-bottom:15px;
+            }
+         
+            
+            .mainbody form {
+           float:left;}
+
+            .mainbody div input {
+              margin-left:25px;
+            
+            }
+            .textbox{
+              margin-top:5px;
+              margin-bottom:5px;
+              text-align: right;
+              font-weight: lighter;
+              color:blue;
+              float:left;
+            }
+            .textbox div{
+            margin-top:2px;
+            margin-bottom: 5px;
+            margin-left:10px;
+            }
+            .checkbox{
+                width:500px;
+                float:left;
+
+            }
+            .SoThich{
+              margin-top:5px;
+              margin-bottom:5px;
+              text-align: right;
+              font-weight: lighter;
+              color:blue;
+              float:left;
+              margin-left:22px;
+            }
+            
+            .check{
+                margin-left: 5px;
+                margin-right: 5px;
+                font-weight:lighter;
+                font-size: 8pt;
+                font-family: Arial, Helvetica, sans-serif;
+                color:rgb(218, 142, 42);
+                width:100px;
+                float:left
+            }
+            div.block{
+              
+              text-align: left;
+              font-weight: lighter;
+              float:left;
+              padding-top:8px;
+              width:400px;
+            
+            }
+                
+         
+
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="mainbody">
+            <h2>SỞ THÍCH CỦA BẠN</h2>
+            <form>
+                <div class="textbox">
+                    <div>Họ và tên:<input type=text name="HoTen" width=20></div>
+                    <div>Email:<input type=text name="Email" width=20></div>
+                </div>
+                <div class="checkbox">
+                    <div class="SoThich">Sở thích:</div>
+                    <div class="block">
+                        <div class="check"><input type=checkbox name="TheThao" >Thể Thao</div> 
+                        <div class="check"><input type=checkbox name="AmNhac" >Âm nhạc</div>
+                        <div class="check"><input type=checkbox name="DocSach" >Đọc Sách</div>
+                        <div class="check"><input type=checkbox name="LuotWeb" >Lướt Web</div> 
+                        <div class="check"><input type=checkbox name="ChoiGame">Chơi game</div>
+                        <div class="check"><input type=checkbox name="DienAnh">Điện Ảnh</div> 
+                        <div class="check"><input type=checkbox name="ChoiGame">Du lịch</div>
+                    </div>
+                    <div style="width:300px; height:50px; margin-left:90px; margin-top:20px; display:block;">
+                        <input class="submit" type="submit" value="Gửi Thông tin">
+                        <input class="reset" type="reset" value="Nhập lại">
+                    </div>
+                </div>
+            </form>
+           
+        </div>
+     
+        <script src="" async defer></script>
+    </body>
+</html>
