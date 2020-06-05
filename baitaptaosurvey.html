@@ -7,7 +7,6 @@
             form {
                 font-family: Helvetica;
                 font-size: 10pt;
-               
             }
             select{
                 width:300px;
@@ -17,21 +16,19 @@
                 text-align: center;
                 font-weight: thin;
                 }
-         
+            .score:hover{
+                background-color: lightyellow;
+            }
             .Chooseradio{
                 width:130px;
                 height: 50px;
             }
-           
-            .radiorow:nth-child(even)  {
-                background-color: rgb(206, 224, 240);}
             .radiorow:nth-child(odd)  {
                 background-color: rgb(241, 243, 245);
             }
-            textarea{resize:none;}
-            .hover:hover{
-                background-color: lightyellow;
+            textarea{resize:none;
             }
+           
           
         </style>
     </head>
@@ -40,7 +37,7 @@
             
             <h3> Market Research Survey</h3>
             <p>Please take a few moments to complete this satisfaction survey</p><br>
-            <div class="hover">
+            <div class="hover1">
             <h5>What is your age range</h5>
             <select width="30">
                 <option value="18-24">18-24</option>
@@ -49,6 +46,7 @@
                 <option value="50+">50+</option>
             </div>
             </select>
+            <div class="hover2">
             <h5>What is your yearly income range</h5>
             <select width="30">
                 <option value="$0 - $25,000">$0 - $25,000</option>
@@ -56,6 +54,7 @@
                 <option value="$50,001 - $100000">$50,001 - $100000</option>
                 <option value="$100000+">$100000+</option>
             </select>
+            </div>
             <h5>Gender Identity</h5>
                 <input type="radio" name="radio1" value="Male">Male<br>
                 <input type="radio" name="radio1" value="Female">Female<br>
@@ -73,7 +72,7 @@
 
             <h5>What would you pay for the new product?</h5>
             <span>$</span><span>&nbsp; <input style="width:50px" align="right" type="text" name="Dollar" value="" width="20px"/> &nbsp;. &nbsp;<input style="width:25px" type="text" name="cent"/> </span>
-            <div id="dollarTxt" style="font-size:8pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dollars&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cents</div>
+            <div id="dollarTxt" style="font-size:8pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dollars&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cents</div>
             <h5>What feature would you like to see in the new product.</h5>
             <textarea style="width: 897px; height:100px;"></textarea>
             <br>
