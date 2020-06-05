@@ -27,21 +27,27 @@
                 background-color: rgb(206, 224, 240);}
             .radiorow:nth-child(odd)  {
                 background-color: rgb(241, 243, 245);
-
+            }
+            textarea{resize:none;}
+            .hover:hover{
+                background-color: lightyellow;
             }
           
         </style>
     </head>
     <body>
         <form align="left">
+            
             <h3> Market Research Survey</h3>
             <p>Please take a few moments to complete this satisfaction survey</p><br>
+            <div class="hover">
             <h5>What is your age range</h5>
             <select width="30">
                 <option value="18-24">18-24</option>
                 <option value="25-34">25-34</option>
                 <option value="35-50">35-50</option>
                 <option value="50+">50+</option>
+            </div>
             </select>
             <h5>What is your yearly income range</h5>
             <select width="30">
@@ -83,26 +89,28 @@
                 </tr>
                 <tr class="radiorow">
                     <td>Our product are priced fairly</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>1</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>2</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>3</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>4</td>
+                    <td class="Chooseradio"><input type="radio" name="radio4" value="Daily"><br>1</td>
+                    <td class="Chooseradio"><input type="radio" name="radio4" value="Daily"><br>2</td>
+                    <td class="Chooseradio"><input type="radio" name="radio4" value="Daily"><br>3</td>
+                    <td class="Chooseradio"><input type="radio" name="radio4" value="Daily"><br>4</td>
                 </tr>
                 <tr class="radiorow">
                     <td>Our product are high quality</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>1</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>2</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>3</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>4</td>
+                    <td class="Chooseradio"><input type="radio" name="radio5" value="Daily"><br>1</td>
+                    <td class="Chooseradio"><input type="radio" name="radio5" value="Daily"><br>2</td>
+                    <td class="Chooseradio"><input type="radio" name="radio5" value="Daily"><br>3</td>
+                    <td class="Chooseradio"><input type="radio" name="radio5" value="Daily"><br>4</td>
                 </tr>
                 <tr class="radiorow">
                     <td>You would recommend our product to your friends or coworker</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>1</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>2</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>3</td>
-                    <td class="Chooseradio"><input type="radio" name="radio3" value="Daily"><br>4</td>
+                    <td class="Chooseradio"><input type="radio" name="radio6" value="Daily"><br>1</td>
+                    <td class="Chooseradio"><input type="radio" name="radio6" value="Daily"><br>2</td>
+                    <td class="Chooseradio"><input type="radio" name="radio6" value="Daily"><br>3</td>
+                    <td class="Chooseradio"><input type="radio" name="radio6" value="Daily"><br>4</td>
                 </tr>
             </table>
+           <br><br>
+            <input type="submit" name="submit" value="SUBMIT">
         </form>        
     </body>
 </html>
