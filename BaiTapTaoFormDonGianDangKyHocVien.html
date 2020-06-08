@@ -3,66 +3,108 @@
     <head>
         <meta charset="utf-8">
         <title>Đăng ký học viên</title>
-        <style>
-            body{
-                background-color: white;
-                font-family: tahoma;
-            }
-            .mainbody{
-                width: 500px;
-                margin: 0 auto; 
-                background-color: lightgoldenrodyellow;
-                height:500px;
-         
-              
-            }
-            h2 {
-                color:black;
-                background-color: rgb(162, 243, 204);
-                padding-right: 0px;
-                padding-top:4px;
-                padding-bottom:4px;
-                width:500px;
-                text-align:center;
-                font-family: tahoma;
-                font-weight: lighter;
-                letter-spacing: 0.5pt;
-                margin:0%;
-                margin-bottom:15px;
-            }
-            #Desciption{
-                margin:15px;
-                width:10px;
-                
-            }
-            .textbox{
-                margin:10px;
-                height:500px;
-            }
-            .input{
-                float:left;
-            }
-         
-          
-        </style>
+      
     </head>
-    <body>
-        <div class="mainbody">
-          
-            <form>
-                <div class="tablebody">
-                    <h2>Đăng Ký Học Viên</h2>
-                    <div class="textbox">
-                        <div class="Description" style="width: 100px;">Họ và tên:</div>
-                        <span class="input"><input type=text name="HoTen" width=20></span>
-                        <div class="Description">Email:</div>
-                        <span><input type=text name="Email" width=20></span>
-                </div>
-             
-            </form>
-           
-        </div>
+        <form action="action.php" method="get"> 
+            <table border="0" bgcolor="#ffffcc">
+                
+                    <tr>
+                        <td bgcolor="#b3ffcc" colspan="2" width="700" align="Left">ĐĂNG KÝ HỌC VIÊN</td>
+                    </tr>
+                    <tr>
+                        <td width="200">
+                            Họ và tên
+                        </td>
+                        
+                        <td width="480">
+                            <input type="text" name="Name" size="40"/>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="200">
+                            Ngày sinh
+                        </td>
+                        
+                        <td width="480">
+                            <input type="text" name="Birthday" size="25"/>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="200">
+                            Giới tính
+                        </td>
+                        
+                        <td width="480">
+                            <input type="radio" name="Gender">Nam
+                            <input type="radio" name="Gender">Nữ
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="200">
+                            Địa chỉ
+                        </td>
+                        
+                        <td width="480">
+                            <textarea name="Address" rows="5" cols="30"></textarea>
+                         
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="200">
+                           Lớp
+                        </td>
+                        
+                        <td width="480">
+                            <select name="" id="class">
+                                <option>&nbsp;&nbsp;&nbsp;&nbsp;Lớp&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <option>&nbsp;&nbsp;&nbsp;&nbsp;1A&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <option>&nbsp;&nbsp;&nbsp;&nbsp;1B&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <option>&nbsp;&nbsp;&nbsp;&nbsp;1C&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                            </select>
+                         
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="200">
+                           Email
+                        </td>
+                        
+                        <td width="480">
+                            <input type="email" name="Name" size="30"/>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="200">
+                           Điện Thoại
+                        </td>
+                        
+                        <td width="480">
+                            <input type="tel" name="Telephone" size="30"/>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="200">
+                            &nbsp;
+                        </td>
+                        
+                        <td width="480">
+                           <input type="submit" name="submit" value="Đăng ký">
+                           <input type="reset" name="reset" value="Nhập lại">
+                            
+                        </td>
+                    </tr>
+            </table>
+        </form>
+ 
+  
      
-        <script src="" async defer></script>
+
     </body>
 </html>
